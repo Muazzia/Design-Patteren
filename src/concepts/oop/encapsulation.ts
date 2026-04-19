@@ -37,11 +37,13 @@ class Person {
   }
 }
 
-const muaz = new Person("Muaz");
-muaz.setAge(10);
-const talha = new Person("Talha");
+(() => {
+  const muaz = new Person("Muaz");
+  muaz.setAge(10);
+  const talha = new Person("Talha");
 
-console.log(muaz.getName());
-console.log(muaz);
-console.log(muaz.getPersonDate());
-console.log(talha.getName());
+  console.log(muaz.getName());
+  console.log(muaz);
+  console.log(muaz.getPersonDate());
+  console.log(talha.getName());
+})();

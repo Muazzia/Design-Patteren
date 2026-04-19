@@ -5,9 +5,11 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/oop/abstraction.js",
-    "start:encapsulation": "node dist/oop/encapsulation.js",
-    "start:polymorphism": "node dist/oop/polymorphism.js",
+    "start": "node dist/concepts/oop/abstraction.js",
+    "start:abstraction": "node dist/concepts/oop/abstraction.js",
+    "start:encapsulation": "node dist/concepts/oop/encapsulation.js",
+    "start:polymorphism": "node dist/concepts/oop/polymorphism.js",
+    "start:srp": "node dist/concepts/solid/single-responsibility/index.js",
     "dev": "tsc --watch",
     "compile": "tsc"
   },
