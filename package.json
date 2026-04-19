@@ -10,6 +10,7 @@
     "start:encapsulation": "node dist/concepts/oop/encapsulation.js",
     "start:polymorphism": "node dist/concepts/oop/polymorphism.js",
     "start:srp": "node dist/concepts/solid/single-responsibility/index.js",
+    "start:openclosed": "node dist/concepts/solid/openClosedPatteren/index.js",
     "dev": "tsc --watch",
     "compile": "tsc"
   },
