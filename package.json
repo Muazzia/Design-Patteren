@@ -1,0 +1,20 @@
+{
+  "name": "design-patterns-oop",
+  "version": "1.0.0",
+  "description": "Design patterns and OOP concepts in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/oop/abstraction.js",
+    "start:encapsulation": "node dist/oop/encapsulation.js",
+    "start:polymorphism": "node dist/oop/polymorphism.js",
+    "dev": "tsc --watch",
+    "compile": "tsc"
+  },
+  "keywords": ["design-patterns", "oop", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
